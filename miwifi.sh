@@ -60,7 +60,7 @@ if [ "${num}" == "5" ]
 then
 cd /tmp
 rm -rf *.sh
-curl https://raw.githubusercontent.com/blademainer/miwifi-ss/master/r3/r3_ss.sh -o r3_ss.sh
+curl https://raw.githubusercontent.com/blademainer/miwifi-ss/master/r3/r3_ss.sh -o r3_ss.sh --insecure
 chmod -R 777 r3_ss.sh
 ./r3_ss.sh
 fi
